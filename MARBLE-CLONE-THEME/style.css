@@ -1,0 +1,30 @@
+/*
+Theme Name: Marble Clinic Restoration - Live Site Clone
+Theme URI: https://marbleclinicrestoration.com/
+Author: Marble Clinic Restoration
+Author URI: https://marbleclinicrestoration.com/
+Description: 100% exact copy of marbleclinicrestoration.com WordPress site. Includes BeTheme design, Elementor compatibility, all 16 pages, 182 images, and complete styling.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: marble-clone
+Tags: business, services, elementor, betheme, restoration, marble
+
+This theme is a complete clone of the live marbleclinicrestoration.com website.
+*/
+
+/* 
+ * Main theme styles are loaded via wp_enqueue_style() in functions.php
+ * This file contains only theme metadata for WordPress
+ */
+
+/* Basic Reset */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', Arial, sans-serif;
+}
