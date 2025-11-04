@@ -1,0 +1,58 @@
+Marble Replica Migration Report
+Date: 2025-11-04
+
+Overview
+--------
+The Elementor blueprint was extracted from the HTTrack archive and converted into a WordPress theme importer. Activation of the `MarbleReplica_Theme` theme seeds pages, templates, and menus. Media and Elementor CSS are provided under `uploads/imported/`.
+
+Imported Content
+----------------
+- Pages created: 16
+  - home
+  - services
+  - marble-natural-stone-restoration
+  - gallery
+  - contact-us
+  - marble-repair-restoration
+  - marble-refinishing-care-maintenance
+  - natural-stones-care-maintenance
+  - beverly-hills-ca
+  - santa-monica-ca
+  - brentwood-ca
+  - calabasas-ca
+  - studio-city-ca
+  - about-us
+  - kitchen-island-countertops-and-refinishing
+  - floors-counters-walls-maintenance
+
+- Elementor templates: 2
+  - Header (`marble-replica-header`)
+  - Footer (`marble-replica-footer`)
+
+- Navigation menus generated from header markup:
+  - `menu-main-menu-1` → assigned to `primary`
+  - `menu-main-menu` → assigned to `secondary`
+  - `menu-new-menu` → assigned to `mobile`
+  (Menus are rendered through the `[marble_menu]` shortcode.)
+
+Assets & Styles
+---------------
+- Uploads directory: `wp-content/uploads/imported/`
+  - Images, icons, fonts, Elementor per-page CSS, and global assets reside here.
+- Elementor CSS files loaded by theme:
+  post-103.css, post-11.css, post-1160.css, post-1177.css, post-118.css, post-166.css,
+  post-181.css, post-600.css, post-605.css, post-610.css, post-620.css, post-625.css,
+  post-630.css, post-635.css, post-640.css, post-67.css, post-764.css, post-769.css, post-8.css
+
+Manual Follow-up
+----------------
+- Install and activate Elementor, Elementor Pro, and Contact Form 7 before theme activation.
+- Slider Revolution markup is preserved; install Slider Revolution if animated behaviour is desired.
+- Confirm media path `wp-content/uploads/imported/` exists before visiting the site. Missing files will break background images.
+- After activation, flush Elementor CSS (Elementor ▸ Tools ▸ Regenerate CSS) if styles appear outdated.
+
+Validation Notes
+----------------
+- All internal links were converted to slug-based placeholders and resolve to WordPress permalinks at import time.
+- Menus were regenerated from the captured HTML; editing them in **Appearance ▸ Menus** updates the header automatically.
+- No missing media detected in the extracted HTTrack archive.

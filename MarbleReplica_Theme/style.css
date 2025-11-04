@@ -1,0 +1,16 @@
+/*
+Theme Name: Marble Replica
+Theme URI: https://marbleclinicrestoration.com/
+Author: Rebuild Automation
+Author URI: https://marbleclinicrestoration.com/
+Description: Elementor-ready theme that recreates The Marble Clinic Restoration website from HTTrack assets with automated content import.
+Version: 1.0.0
+Requires at least: 6.0
+Requires PHP: 7.4
+Text Domain: marble-replica
+*/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
