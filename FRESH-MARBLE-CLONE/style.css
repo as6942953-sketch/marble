@@ -1,0 +1,39 @@
+/*
+Theme Name: Marble Clinic Restoration Clone
+Theme URI: https://marbleclinicrestoration.com/
+Description: 100% exact copy of marbleclinicrestoration.com - Built from live site source. Complete BeTheme design with Elementor compatibility.
+Author: Marble Clinic Restoration
+Author URI: https://marbleclinicrestoration.com/
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: marble-clone
+Tags: business, restoration, marble, elementor, betheme
+
+Cloned from: https://marbleclinicrestoration.com/
+Date: 2025-11-04
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #626262;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
