@@ -1,0 +1,94 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║           HOW TO DOWNLOAD YOUR WORDPRESS THEME                    ║
+╔═══════════════════════════════════════════════════════════════════╗
+
+FILE TO DOWNLOAD:
+  Marble-Elementor-Theme-fixed.zip (13MB)
+
+CURRENT LOCATION:
+  /workspace/Marble-Elementor-Theme-fixed.zip
+  
+  This is in your Cursor IDE remote workspace (Docker container)
+  NOT on your local computer desktop yet.
+
+═══════════════════════════════════════════════════════════════════
+
+📥 DOWNLOAD METHODS:
+
+METHOD 1: Via Cursor IDE File Explorer (RECOMMENDED)
+───────────────────────────────────────────────────
+1. Look at the left sidebar in Cursor IDE
+2. Find the "Explorer" or "Files" panel
+3. Navigate to: /workspace/
+4. Find: Marble-Elementor-Theme-fixed.zip
+5. Right-click → "Download" (or "Save to local")
+6. Choose destination: Your Desktop or Downloads folder
+7. Done!
+
+METHOD 2: Via Cursor's Built-in Terminal
+──────────────────────────────────────────
+If Cursor has a "Download File" option in terminal:
+1. In terminal, run: ls -lh /workspace/Marble-Elementor-Theme-fixed.zip
+2. Look for a download icon or right-click option
+3. Select "Download to local machine"
+
+METHOD 3: Using SCP/SFTP (Advanced)
+─────────────────────────────────────
+If you have SSH access to the container:
+1. Find your container's connection details
+2. Use SCP command:
+   scp /workspace/Marble-Elementor-Theme-fixed.zip ~/Desktop/
+3. Or use FileZilla/Cyberduck with SFTP
+
+METHOD 4: Copy to Clipboard (Small files only)
+───────────────────────────────────────────────
+For text files, you can:
+1. cat the file
+2. Copy the output
+3. Paste into a local file
+
+NOTE: This ZIP is 13MB, too large for clipboard method.
+
+═══════════════════════════════════════════════════════════════════
+
+🎯 RECOMMENDED APPROACH:
+
+Use METHOD 1 (Cursor IDE File Explorer)
+This is the easiest and most reliable way.
+
+═══════════════════════════════════════════════════════════════════
+
+❓ IF YOU CAN'T FIND THE DOWNLOAD OPTION:
+
+1. Check Cursor documentation for "downloading files from workspace"
+2. Try right-clicking on the file in Explorer
+3. Look for a "..." menu or download icon
+4. Check the Command Palette (Ctrl+Shift+P or Cmd+Shift+P)
+   and search for "download"
+
+═══════════════════════════════════════════════════════════════════
+
+📍 AFTER DOWNLOADING:
+
+The file will be on your local computer in the location you chose
+(usually Downloads folder or Desktop).
+
+Then you can:
+1. Navigate to that folder on your computer
+2. Find: Marble-Elementor-Theme-fixed.zip
+3. Upload to WordPress: Appearance → Themes → Add New → Upload
+
+═══════════════════════════════════════════════════════════════════
+
+ALTERNATIVE: Direct Upload to WordPress (if accessible)
+─────────────────────────────────────────────────────────
+
+If your WordPress site is accessible from the Cursor environment,
+you could potentially upload directly via:
+1. WordPress REST API
+2. WP-CLI commands
+3. FTP/SFTP to your WordPress server
+
+But downloading to local first is SAFER and RECOMMENDED.
+
+═══════════════════════════════════════════════════════════════════
