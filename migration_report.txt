@@ -20,15 +20,13 @@ Outstanding Tasks / Manual Steps
    - Elementor Pro (for header/footer Theme Builder assignments)
    - Slider Revolution (if interactive hero slider must remain functional)
    - Optional: Elementskit Lite, Contact Form 7, Image Hover Effects (only if further editing of their legacy features is desired; front-end markup will already render from imported HTML).
-2. Upload media assets:
-   - Copy the contents of `uploads/imported/` into the target site's `wp-content/uploads/` directory, preserving subdirectories.
-3. After activating the theme, verify Elementor’s “Regenerate Files & Data” to rebuild CSS caches if needed.
-4. Assign header/footer templates inside Elementor > Theme Builder if Elementor Pro is active. The theme provides fallbacks until assignments are configured.
+2. After activating the theme, verify Elementor’s “Regenerate Files & Data” to rebuild CSS caches if needed.
+3. Assign header/footer templates inside Elementor > Theme Builder if Elementor Pro is active. The theme provides fallbacks until assignments are configured.
 
 Known Limitations
 -----------------
 - Widgets are stored as HTML widgets for data completeness. Element-level editing (e.g., swapping icon box titles) occurs within the HTML widget editor.
-- Automatic media registration is not bundled; media references rely on matching filenames inside the uploads directory.
+- Bundled uploads copy into the WordPress uploads directory automatically when missing; media items are not programmatically registered, so attachments may need manual registration if library browsing is required.
 - Slider Revolution layers are embedded as static HTML/JS; ensure the plugin is installed to regain full visual editor control.
 
 Validation Checklist

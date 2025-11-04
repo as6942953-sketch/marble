@@ -15,6 +15,10 @@ if ( ! defined( 'MARBLE_REPLICA_DATA_PATH' ) ) {
     define( 'MARBLE_REPLICA_DATA_PATH', MARBLE_REPLICA_THEME_DIR . '/data/import_payload.json' );
 }
 
+if ( ! defined( 'MARBLE_REPLICA_ASSETS_DIR' ) ) {
+    define( 'MARBLE_REPLICA_ASSETS_DIR', MARBLE_REPLICA_THEME_DIR . '/assets' );
+}
+
 /**
  * Theme supports and setup.
  */
@@ -63,6 +67,8 @@ function marble_replica_run_import(): void {
     require_once ABSPATH . 'wp-admin/includes/post.php';
     require_once ABSPATH . 'wp-admin/includes/taxonomy.php';
 
+    marble_replica_copy_theme_uploads();
+
     $imported_pages     = marble_replica_import_pages( $payload['pages'] );
     $imported_templates = [];
 
@@ -91,6 +97,24 @@ function marble_replica_run_import(): void {
     flush_rewrite_rules();
 }
 add_action( 'after_switch_theme', 'marble_replica_run_import' );
+
+/**
+ * Copy bundled uploads assets into the WordPress uploads directory.
+ */
+function marble_replica_copy_theme_uploads(): void {
+    $source = trailingslashit( MARBLE_REPLICA_ASSETS_DIR ) . 'uploads';
+
+    if ( ! is_dir( $source ) ) {
+        return;
+    }
+
+    $uploads = wp_get_upload_dir();
+    if ( empty( $uploads['basedir'] ) ) {
+        return;
+    }
+
+    marble_replica_recursive_copy( $source, trailingslashit( $uploads['basedir'] ) );
+}
 
 /**
  * Import Elementor pages from payload.
@@ -219,4 +243,44 @@ function marble_replica_admin_notice(): void {
     );
 }
 add_action( 'admin_notices', 'marble_replica_admin_notice' );
+
+/**
+ * Recursively copy files from source to destination if they do not already exist.
+ *
+ * @param string $source
+ * @param string $destination
+ */
+function marble_replica_recursive_copy( string $source, string $destination ): void {
+    if ( ! class_exists( 'RecursiveDirectoryIterator' ) || ! class_exists( 'FilesystemIterator' ) ) {
+        return;
+    }
+
+    $source      = trailingslashit( wp_normalize_path( $source ) );
+    $destination = trailingslashit( wp_normalize_path( $destination ) );
+
+    if ( ! is_dir( $source ) ) {
+        return;
+    }
+
+    $iterator = new RecursiveIteratorIterator(
+        new RecursiveDirectoryIterator( $source, FilesystemIterator::SKIP_DOTS ),
+        RecursiveIteratorIterator::SELF_FIRST
+    );
+
+    foreach ( $iterator as $item ) {
+        $target = str_replace( $source, $destination, wp_normalize_path( $item->getPathname() ) );
+
+        if ( $item->isDir() ) {
+            wp_mkdir_p( $target );
+            continue;
+        }
+
+        if ( file_exists( $target ) ) {
+            continue;
+        }
+
+        wp_mkdir_p( dirname( $target ) );
+        copy( $item->getPathname(), $target );
+    }
+}
 
