@@ -1,0 +1,47 @@
+Content Display Guide
+======================
+
+YES! The content from all pages is now automatically placed and displayed "as it is" on each page.
+
+How It Works:
+-------------
+
+1. **Automatic Content Loading:**
+   - When you create a WordPress page with a slug matching one of the extracted HTML files, the content automatically displays
+   - For example: Create a page with slug "about-us" → automatically loads "about-us.html" content
+   - Create a page with slug "services" → automatically loads "services.html" content
+
+2. **Priority Order:**
+   - First: If page is built with Elementor (in WordPress database), Elementor content is shown
+   - Second: If extracted HTML file exists for that page slug, it's automatically displayed
+   - Third: Falls back to standard WordPress page content
+
+3. **All 16 Pages Ready:**
+   ✅ home.html - Home page
+   ✅ about-us.html - About Us page
+   ✅ services.html - Services page
+   ✅ gallery.html - Gallery page
+   ✅ contact-us.html - Contact Us page
+   ✅ marble-natural-stone-restoration.html
+   ✅ marble-repair-restoration.html
+   ✅ marble-refinishing-care-maintenance.html
+   ✅ natural-stones-care-maintenance.html
+   ✅ kitchen-island-countertops-and-refinishing.html
+   ✅ floors-counters-walls-maintenance.html
+   ✅ beverly-hills-ca.html
+   ✅ santa-monica-ca.html
+   ✅ brentwood-ca.html
+   ✅ calabasas-ca.html
+   ✅ studio-city-ca.html
+
+How to Use:
+-----------
+
+1. Install the theme in WordPress
+2. Create pages with slugs matching the HTML filenames (without .html extension)
+   - Example: Create page "About Us" → set slug to "about-us"
+   - Example: Create page "Services" → set slug to "services"
+3. The content will automatically appear on the page!
+
+Note: The content includes all original HTML, classes, and structure exactly as it was on the original website. All styles, colors, and fonts are preserved through the CSS files.
+

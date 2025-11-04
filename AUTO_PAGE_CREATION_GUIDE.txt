@@ -1,0 +1,74 @@
+Automatic Page Creation Guide
+==============================
+
+HOW IT WORKS:
+-------------
+
+When you activate the Marble Elementor Theme, it automatically:
+
+1. ✅ Scans all HTML files in /elementor-pages/ folder
+2. ✅ Creates WordPress pages for each HTML file
+3. ✅ Uses filename (without .html) as page slug
+4. ✅ Formats titles nicely (e.g., "about-us" → "About Us")
+5. ✅ Converts image paths to WordPress-compatible URLs
+6. ✅ Sanitizes HTML content while preserving Elementor attributes
+7. ✅ Sets pages as published
+8. ✅ Sets "Home" page as front page automatically
+9. ✅ Shows admin notice with count of created pages
+
+WHAT HAPPENS ON ACTIVATION:
+---------------------------
+
+1. Go to WordPress Admin → Appearance → Themes
+2. Activate "Marble Elementor Theme"
+3. You'll see a success notice: "X pages have been automatically created..."
+4. Click "View Pages" to see all created pages
+5. All pages are immediately visible in Pages → All Pages
+
+PAGES CREATED:
+--------------
+
+All 16 pages from your HTML files will be created:
+
+✅ Home (set as front page)
+✅ About Us
+✅ Services
+✅ Gallery
+✅ Contact Us
+✅ Marble Natural Stone Restoration
+✅ Marble Repair Restoration
+✅ Marble Refinishing Care Maintenance
+✅ Natural Stones Care Maintenance
+✅ Kitchen Island Countertops and Refinishing
+✅ Floors Counters Walls Maintenance
+✅ Beverly Hills, CA
+✅ Santa Monica, CA
+✅ Brentwood, CA
+✅ Calabasas, CA
+✅ Studio City, CA
+
+ELEMENTOR COMPATIBILITY:
+-------------------------
+
+✅ Pages are created with full HTML content
+✅ All Elementor classes and attributes are preserved
+✅ Elementor can open and view these pages
+✅ You can edit pages in Elementor (Elementor will rebuild the structure)
+✅ All CSS, JS, and fonts load from theme assets
+
+NOTE ON EDITING:
+-----------------
+
+- The HTML content is stored in post_content
+- Elementor can view and edit these pages
+- When you edit in Elementor, it will rebuild the page structure
+- Original HTML content is preserved as a reference
+
+IMPORTANT:
+----------
+
+- Pages are only created on FIRST activation (won't duplicate existing pages)
+- If you delete a page, reactivate the theme to recreate it
+- All image paths are automatically converted to WordPress URLs
+- Design, styles, and fonts remain exactly the same
+

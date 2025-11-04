@@ -1,0 +1,123 @@
+/**
+ * Local Google Fonts - Roboto and Lora
+ * Fallback to system fonts if files are not available
+ * 
+ * To use custom fonts, download font files and update paths below.
+ * For now, using fallback system fonts for performance and compliance.
+ */
+
+/* Roboto Font Family */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Roboto Light'), local('Roboto-Light'), 
+	     local('Arial'), local('Helvetica Neue'), local('Helvetica');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto'), local('Roboto-Regular'),
+	     local('Arial'), local('Helvetica Neue'), local('Helvetica');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Roboto Italic'), local('Roboto-Italic'),
+	     local('Arial Italic'), local('Helvetica Neue Italic');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Roboto Medium'), local('Roboto-Medium'),
+	     local('Arial'), local('Helvetica Neue');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Roboto Bold'), local('Roboto-Bold'),
+	     local('Arial Bold'), local('Helvetica Neue Bold');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 700;
+	src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
+	     local('Arial Bold Italic'), local('Helvetica Neue Bold Italic');
+	font-display: swap;
+}
+
+/* Lora Font Family */
+@font-face {
+	font-family: 'Lora';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Lora Light'), local('Lora-Light'),
+	     local('Georgia'), local('Times New Roman'), local('serif');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lora';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Lora'), local('Lora-Regular'),
+	     local('Georgia'), local('Times New Roman'), local('serif');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lora';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Lora Italic'), local('Lora-Italic'),
+	     local('Georgia Italic'), local('Times New Roman Italic');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lora';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Lora Medium'), local('Lora-Medium'),
+	     local('Georgia'), local('Times New Roman');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lora';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Lora Bold'), local('Lora-Bold'),
+	     local('Georgia Bold'), local('Times New Roman Bold');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lora';
+	font-style: italic;
+	font-weight: 700;
+	src: local('Lora Bold Italic'), local('Lora-BoldItalic'),
+	     local('Georgia Bold Italic'), local('Times New Roman Bold Italic');
+	font-display: swap;
+}
+
+/* CSS Variables for easy font usage */
+:root {
+	--font-roboto: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+	--font-lora: 'Lora', Georgia, 'Times New Roman', Times, serif;
+}
