@@ -1,0 +1,46 @@
+/*
+Theme Name: Marble Elementor Theme
+Theme URI: https://example.com
+Description: Converted static HTML + Elementor markup to WordPress theme. Fully compatible with Elementor page builder for visual editing.
+Author: Nauman Ellahi
+Version: 1.0
+Text Domain: marble-elementor-theme
+*/
+
+/* Base styles - WordPress will handle most styling through Elementor */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#Content {
+    position: relative;
+}
+
+.content_wrapper {
+    width: 100%;
+    max-width: 100%;
+}
+
+.sections_group {
+    width: 100%;
+}
+
+.entry-content {
+    width: 100%;
+}
+
+/* Elementor compatibility */
+.elementor {
+    visibility: visible;
+}
+
+/* Ensure Elementor sections display correctly */
+.elementor-section {
+    position: relative;
+}
+
+.elementor-widget-wrap {
+    position: relative;
+}
+
