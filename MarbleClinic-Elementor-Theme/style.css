@@ -1,0 +1,131 @@
+/*
+Theme Name: MarbleClinic Elementor Theme
+Theme URI: https://marbleclinicrestoration.com/
+Description: Full Elementor-compatible clone of Marble Clinic Restoration website. Built as a proper WordPress + Elementor theme with editable pages.
+Author: Nauman Ellahi
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: marbleclinic-elementor-theme
+Tags: elementor, business, restoration, services, marble
+
+This theme is a complete Elementor-compatible clone of marbleclinicrestoration.com.
+All 19 pages are fully editable in Elementor.
+*/
+
+/* Base Styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #626262;
+	background-color: #ffffff;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Elementor Compatibility */
+.elementor-section {
+	position: relative;
+}
+
+.elementor-container {
+	display: flex;
+	margin: 0 auto;
+	position: relative;
+}
+
+.elementor-column {
+	position: relative;
+	min-height: 1px;
+	display: flex;
+}
+
+.elementor-widget-wrap {
+	position: relative;
+	width: 100%;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.elementor-element {
+	position: relative;
+}
+
+/* WordPress Core */
+.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	max-width: 96%;
+	padding: 5px 3px 10px;
+	text-align: center;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+	width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
