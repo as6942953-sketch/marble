@@ -1,0 +1,39 @@
+Marble Clinic Restoration – Migration Report
+Generated on: 2025-11-04
+
+Overview
+---------
+- Pages replicated: 16 (import IDs 11, 67, 103, 118, 166, 181, 600, 605, 610, 620, 625, 630, 635, 640, 764, 769)
+- Elementor templates imported: 3 (headers 1177 & 1213, footer 1160)
+- Import method: Elementor HTML widget fallback with preserved Elementor classes and compiled JSON stored in theme data file.
+
+Success Criteria
+---------------
+- Layout fidelity: Achieved by embedding original HTML output from the HTTrack capture and retaining Elementor-specific classes/IDs to keep stylesheet parity.
+- Elementor editability: Pages, header, and footer become editable within Elementor via HTML widgets. Each widget retains original wrapper classes for styling consistency.
+- Responsive breakpoints & animations: Preserved through intact CSS and inline data-settings imported from the source markup.
+
+Outstanding Tasks / Manual Steps
+--------------------------------
+1. Install required plugins before activating the theme:
+   - Elementor (free)
+   - Elementor Pro (for header/footer Theme Builder assignments)
+   - Slider Revolution (if interactive hero slider must remain functional)
+   - Optional: Elementskit Lite, Contact Form 7, Image Hover Effects (only if further editing of their legacy features is desired; front-end markup will already render from imported HTML).
+2. Upload media assets:
+   - Copy the contents of `uploads/imported/` into the target site's `wp-content/uploads/` directory, preserving subdirectories.
+3. After activating the theme, verify Elementor’s “Regenerate Files & Data” to rebuild CSS caches if needed.
+4. Assign header/footer templates inside Elementor > Theme Builder if Elementor Pro is active. The theme provides fallbacks until assignments are configured.
+
+Known Limitations
+-----------------
+- Widgets are stored as HTML widgets for data completeness. Element-level editing (e.g., swapping icon box titles) occurs within the HTML widget editor.
+- Automatic media registration is not bundled; media references rely on matching filenames inside the uploads directory.
+- Slider Revolution layers are embedded as static HTML/JS; ensure the plugin is installed to regain full visual editor control.
+
+Validation Checklist
+--------------------
+- [x] Elementor data JSON validated for all pages and templates.
+- [x] Internal links remapped to WordPress-friendly permalinks.
+- [x] Theme activation runs importer and sets the front page to ID 11.
+- [x] Deliverables packaged: `MarbleReplica_Theme`, `uploads/imported/`, README instructions.

@@ -1,0 +1,17 @@
+/*
+Theme Name: Marble Replica Theme
+Theme URI: https://example.com/marble-replica
+Author: Rebuild Automation
+Author URI: https://example.com
+Description: Elementor-ready replica theme built from static capture of Marble Clinic Restoration. Installs page layouts and templates automatically on activation.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 7.4
+Text Domain: marble-replica
+*/
+
+/*
+ * This file remains intentionally minimal. Front-end styling is handled
+ * by Elementor-generated CSS imported during theme activation.
+ */
