@@ -1,0 +1,80 @@
+﻿
+@media only screen and (min-width: 768px){
+.header-semi #Top_bar:not(.is-sticky) {
+    background-color: transparent;
+}
+}
+.service-box .elementor-widget-wrap {
+    background: white;
+}
+.service-box .elementor-widget-wrap:hover{
+    background: #2151A1;
+}
+.service-page-boxes figure.elementor-image-box-img {
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.service-page-boxes:hover {
+    background: #1A2940;
+}
+.ico-footer-icons {
+	  color: #2151a1;
+    background-color: #2C3E50;
+    width: 25px;
+    text-align: center;
+    padding: 8px 3px;
+}
+.custom-icons span.elementor-icon.elementor-animation- {
+    padding: 10px;
+    background: #2151a1;
+    border-radius: 50%;
+}
+.custom-btn span.elementor-button-text {
+    border-bottom: 2px solid;
+}
+/*
+.after-banner-sec:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .05;
+    content: "";
+    background-image: url(/wp-content/uploads/2020/10/pattern-bg-img.jpg);
+}
+
+.custom-icon-box span.elementor-icon.elementor-animation- {
+    border: 2px solid;
+    padding: 23px;
+}
+.img-sec:before {
+    content: " ";
+    background-image: url(/wp-content/uploads/2021/02/1-2.jpg);
+    position: absolute;
+    bottom: 70px;
+    top: -208px;
+    left: 1px;
+    width: 46%;
+    background-size: cover;
+}
+*/
+.contact-icons a.elementor-icon.elementor-animation- {
+    padding: 16px;
+    background: white;
+    border-radius: 50%;
+}
+aside#media_image-2{
+  height: 120px;
+}
+.why-choose-sec span.elementor-icon.elementor-animation- {
+    padding: 30px;
+    border-radius: 56px;
+    box-shadow: 0px 4px 4px lightgrey;
+    border: 2px solid;
+}
+
