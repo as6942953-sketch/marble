@@ -1,0 +1,247 @@
+[
+  {
+    "file": "natural-stones-care-maintenance.html",
+    "path": "elementor-pages/natural-stones-care-maintenance.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 17316,
+    "size_fixed": 17355
+  },
+  {
+    "file": "about-us.html",
+    "path": "elementor-pages/about-us.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 20926,
+    "size_fixed": 20965
+  },
+  {
+    "file": "contact-us.html",
+    "path": "elementor-pages/contact-us.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 9977,
+    "size_fixed": 10016
+  },
+  {
+    "file": "studio-city-ca.html",
+    "path": "elementor-pages/studio-city-ca.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 16961,
+    "size_fixed": 17000
+  },
+  {
+    "file": "calabasas-ca.html",
+    "path": "elementor-pages/calabasas-ca.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 16799,
+    "size_fixed": 16838
+  },
+  {
+    "file": "kitchen-island-countertops-and-refinishing.html",
+    "path": "elementor-pages/kitchen-island-countertops-and-refinishing.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 17272,
+    "size_fixed": 17311
+  },
+  {
+    "file": "beverly-hills-ca.html",
+    "path": "elementor-pages/beverly-hills-ca.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 16960,
+    "size_fixed": 16999
+  },
+  {
+    "file": "gallery.html",
+    "path": "elementor-pages/gallery.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 38286,
+    "size_fixed": 38325
+  },
+  {
+    "file": "santa-monica-ca.html",
+    "path": "elementor-pages/santa-monica-ca.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 15080,
+    "size_fixed": 15119
+  },
+  {
+    "file": "floors-counters-walls-maintenance.html",
+    "path": "elementor-pages/floors-counters-walls-maintenance.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 17038,
+    "size_fixed": 17077
+  },
+  {
+    "file": "marble-repair-restoration.html",
+    "path": "elementor-pages/marble-repair-restoration.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 17974,
+    "size_fixed": 18013
+  },
+  {
+    "file": "home.html",
+    "path": "elementor-pages/home.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "missing_alt",
+        "count": 3,
+        "message": "Found 3 images without alt attributes"
+      },
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 53660,
+    "size_fixed": 53695
+  },
+  {
+    "file": "marble-natural-stone-restoration.html",
+    "path": "elementor-pages/marble-natural-stone-restoration.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 17144,
+    "size_fixed": 17183
+  },
+  {
+    "file": "services.html",
+    "path": "elementor-pages/services.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 11911,
+    "size_fixed": 11950
+  },
+  {
+    "file": "brentwood-ca.html",
+    "path": "elementor-pages/brentwood-ca.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 16229,
+    "size_fixed": 16268
+  },
+  {
+    "file": "marble-refinishing-care-maintenance.html",
+    "path": "elementor-pages/marble-refinishing-care-maintenance.html",
+    "errors": [],
+    "warnings": [
+      {
+        "type": "info",
+        "message": "File contains Elementor markup - preserved"
+      }
+    ],
+    "fixed": false,
+    "has_elementor": true,
+    "size_original": 17338,
+    "size_fixed": 17377
+  }
+]

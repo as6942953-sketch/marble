@@ -1,0 +1,648 @@
+[
+  {
+    "file": "be.css",
+    "path": "/workspace/assets/css/be.css",
+    "issues": [],
+    "external_fonts": [],
+    "missing_assets": [
+      {
+        "url": "fonts/mfn/icons.eot?31690507",
+        "resolved": "/workspace/assets/css/fonts/mfn/icons.eot",
+        "exists": false
+      },
+      {
+        "url": "fonts/mfn/icons.eot?31690507",
+        "resolved": "/workspace/assets/css/fonts/mfn/icons.eot",
+        "exists": false
+      },
+      {
+        "url": "fonts/mfn/icons.woff?31690507",
+        "resolved": "/workspace/assets/css/fonts/mfn/icons.woff",
+        "exists": false
+      },
+      {
+        "url": "fonts/mfn/icons.ttf?31690507",
+        "resolved": "/workspace/assets/css/fonts/mfn/icons.ttf",
+        "exists": false
+      },
+      {
+        "url": "fonts/mfn/icons.svg?31690507",
+        "resolved": "/workspace/assets/css/fonts/mfn/icons.svg",
+        "exists": false
+      },
+      {
+        "url": "../muffin-options/svg/be-mono.svg",
+        "resolved": "/workspace/assets/muffin-options/svg/be-mono.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/preloader.gif",
+        "resolved": "/workspace/assets/images/preloader.gif",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_5_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_5_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/box_shadow.png",
+        "resolved": "/workspace/assets/images/box_shadow.png",
+        "exists": false
+      },
+      {
+        "url": "../images/blog_masonry_tile_gradient.png",
+        "resolved": "/workspace/assets/images/blog_masonry_tile_gradient.png",
+        "exists": false
+      },
+      {
+        "url": "../images/timeline_right.png",
+        "resolved": "/workspace/assets/images/timeline_right.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_5_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_5_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/recent_comments.png",
+        "resolved": "/workspace/assets/images/recent_comments.png",
+        "exists": false
+      },
+      {
+        "url": "../images/recent_comments.png",
+        "resolved": "/workspace/assets/images/recent_comments.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_10_w.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_10_w.png",
+        "exists": false
+      },
+      {
+        "url": "../images/videomask.png",
+        "resolved": "/workspace/assets/images/videomask.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/textline_dark.png",
+        "resolved": "/workspace/assets/images/stripes/textline_dark.png",
+        "exists": false
+      },
+      {
+        "url": "../images/fancy_heading_hr_dark.png",
+        "resolved": "/workspace/assets/images/fancy_heading_hr_dark.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_10_w.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_10_w.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_10_w.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_10_w.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/textline.png",
+        "resolved": "/workspace/assets/images/stripes/textline.png",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/circle.svg",
+        "resolved": "/workspace/assets/images/mask_shapes/circle.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/blob.svg",
+        "resolved": "/workspace/assets/images/mask_shapes/blob.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/blob-2.svg",
+        "resolved": "/workspace/assets/images/mask_shapes/blob-2.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/brush.svg",
+        "resolved": "/workspace/assets/images/mask_shapes/brush.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/brush-2.svg",
+        "resolved": "/workspace/assets/images/mask_shapes/brush-2.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/cross.svg",
+        "resolved": "/workspace/assets/images/mask_shapes/cross.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/stain.svg",
+        "resolved": "/workspace/assets/images/mask_shapes/stain.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/triangle.svg",
+        "resolved": "/workspace/assets/images/mask_shapes/triangle.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/irregular-circle.svg",
+        "resolved": "/workspace/assets/images/mask_shapes/irregular-circle.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/blog_masonry_tile_gradient.png",
+        "resolved": "/workspace/assets/images/blog_masonry_tile_gradient.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_10_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_10_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_10_w.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_10_w.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/timeline_top.png",
+        "resolved": "/workspace/assets/images/timeline_top.png",
+        "exists": false
+      },
+      {
+        "url": "../images/timeline_right.png",
+        "resolved": "/workspace/assets/images/timeline_right.png",
+        "exists": false
+      },
+      {
+        "url": "../images/timeline_left.png",
+        "resolved": "/workspace/assets/images/timeline_left.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_10_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_10_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/fancy_heading_hr.png",
+        "resolved": "/workspace/assets/images/fancy_heading_hr.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/bg_panel.png",
+        "resolved": "/workspace/assets/images/bg_panel.png",
+        "exists": false
+      },
+      {
+        "url": "../images/box_shadow.png",
+        "resolved": "/workspace/assets/images/box_shadow.png",
+        "exists": false
+      },
+      {
+        "url": "../images/bg_panel.png",
+        "resolved": "/workspace/assets/images/bg_panel.png",
+        "exists": false
+      }
+    ],
+    "size": 419843
+  },
+  {
+    "file": "dynamic-inline.css",
+    "path": "/workspace/assets/css/dynamic-inline.css",
+    "issues": [],
+    "external_fonts": [],
+    "missing_assets": [],
+    "size": 75863
+  },
+  {
+    "file": "responsive.css",
+    "path": "/workspace/assets/css/responsive.css",
+    "issues": [],
+    "external_fonts": [],
+    "missing_assets": [
+      {
+        "url": "../images/timeline_right.png",
+        "resolved": "/workspace/assets/images/timeline_right.png",
+        "exists": false
+      }
+    ],
+    "size": 64822
+  },
+  {
+    "file": "custom-inline.css",
+    "path": "/workspace/assets/css/custom-inline.css",
+    "issues": [],
+    "external_fonts": [],
+    "missing_assets": [
+      {
+        "url": "/wp-content/uploads/2020/10/pattern-bg-img.jpg",
+        "resolved": "/wp-content/uploads/2020/10/pattern-bg-img.jpg",
+        "exists": false
+      },
+      {
+        "url": "/wp-content/uploads/2021/02/1-2.jpg",
+        "resolved": "/wp-content/uploads/2021/02/1-2.jpg",
+        "exists": false
+      }
+    ],
+    "size": 1750
+  },
+  {
+    "file": "animations.min.css",
+    "path": "/workspace/assets/css/animations.min.css",
+    "issues": [],
+    "external_fonts": [],
+    "missing_assets": [],
+    "size": 59453
+  },
+  {
+    "file": "be.css",
+    "path": "/workspace/marble-elementor-theme-fixed/assets/css/be.css",
+    "issues": [],
+    "external_fonts": [],
+    "missing_assets": [
+      {
+        "url": "fonts/mfn/icons.eot?31690507",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/css/fonts/mfn/icons.eot",
+        "exists": false
+      },
+      {
+        "url": "fonts/mfn/icons.eot?31690507",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/css/fonts/mfn/icons.eot",
+        "exists": false
+      },
+      {
+        "url": "fonts/mfn/icons.woff?31690507",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/css/fonts/mfn/icons.woff",
+        "exists": false
+      },
+      {
+        "url": "fonts/mfn/icons.ttf?31690507",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/css/fonts/mfn/icons.ttf",
+        "exists": false
+      },
+      {
+        "url": "fonts/mfn/icons.svg?31690507",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/css/fonts/mfn/icons.svg",
+        "exists": false
+      },
+      {
+        "url": "../muffin-options/svg/be-mono.svg",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/muffin-options/svg/be-mono.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/preloader.gif",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/preloader.gif",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_5_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_5_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/box_shadow.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/box_shadow.png",
+        "exists": false
+      },
+      {
+        "url": "../images/blog_masonry_tile_gradient.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/blog_masonry_tile_gradient.png",
+        "exists": false
+      },
+      {
+        "url": "../images/timeline_right.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/timeline_right.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_5_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_5_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/recent_comments.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/recent_comments.png",
+        "exists": false
+      },
+      {
+        "url": "../images/recent_comments.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/recent_comments.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_10_w.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_10_w.png",
+        "exists": false
+      },
+      {
+        "url": "../images/videomask.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/videomask.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/textline_dark.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/textline_dark.png",
+        "exists": false
+      },
+      {
+        "url": "../images/fancy_heading_hr_dark.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/fancy_heading_hr_dark.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_10_w.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_10_w.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_10_w.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_10_w.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/textline.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/textline.png",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/circle.svg",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/mask_shapes/circle.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/blob.svg",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/mask_shapes/blob.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/blob-2.svg",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/mask_shapes/blob-2.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/brush.svg",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/mask_shapes/brush.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/brush-2.svg",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/mask_shapes/brush-2.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/cross.svg",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/mask_shapes/cross.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/stain.svg",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/mask_shapes/stain.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/triangle.svg",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/mask_shapes/triangle.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/mask_shapes/irregular-circle.svg",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/mask_shapes/irregular-circle.svg",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/blog_masonry_tile_gradient.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/blog_masonry_tile_gradient.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_10_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_10_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_10_w.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_10_w.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/timeline_top.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/timeline_top.png",
+        "exists": false
+      },
+      {
+        "url": "../images/timeline_right.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/timeline_right.png",
+        "exists": false
+      },
+      {
+        "url": "../images/timeline_left.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/timeline_left.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_10_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_10_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/fancy_heading_hr.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/fancy_heading_hr.png",
+        "exists": false
+      },
+      {
+        "url": "../images/stripes/stripes_3_b.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/stripes/stripes_3_b.png",
+        "exists": false
+      },
+      {
+        "url": "../images/bg_panel.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/bg_panel.png",
+        "exists": false
+      },
+      {
+        "url": "../images/box_shadow.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/box_shadow.png",
+        "exists": false
+      },
+      {
+        "url": "../images/bg_panel.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/bg_panel.png",
+        "exists": false
+      }
+    ],
+    "size": 419843
+  },
+  {
+    "file": "dynamic-inline.css",
+    "path": "/workspace/marble-elementor-theme-fixed/assets/css/dynamic-inline.css",
+    "issues": [],
+    "external_fonts": [],
+    "missing_assets": [],
+    "size": 75863
+  },
+  {
+    "file": "responsive.css",
+    "path": "/workspace/marble-elementor-theme-fixed/assets/css/responsive.css",
+    "issues": [],
+    "external_fonts": [],
+    "missing_assets": [
+      {
+        "url": "../images/timeline_right.png",
+        "resolved": "/workspace/marble-elementor-theme-fixed/assets/images/timeline_right.png",
+        "exists": false
+      }
+    ],
+    "size": 64822
+  },
+  {
+    "file": "custom-inline.css",
+    "path": "/workspace/marble-elementor-theme-fixed/assets/css/custom-inline.css",
+    "issues": [],
+    "external_fonts": [],
+    "missing_assets": [
+      {
+        "url": "/wp-content/uploads/2020/10/pattern-bg-img.jpg",
+        "resolved": "/wp-content/uploads/2020/10/pattern-bg-img.jpg",
+        "exists": false
+      },
+      {
+        "url": "/wp-content/uploads/2021/02/1-2.jpg",
+        "resolved": "/wp-content/uploads/2021/02/1-2.jpg",
+        "exists": false
+      }
+    ],
+    "size": 1750
+  },
+  {
+    "file": "animations.min.css",
+    "path": "/workspace/marble-elementor-theme-fixed/assets/css/animations.min.css",
+    "issues": [],
+    "external_fonts": [],
+    "missing_assets": [],
+    "size": 59453
+  }
+]
