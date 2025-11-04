@@ -25,7 +25,7 @@ Built from scratch by analyzing and downloading:
                     WHAT'S INCLUDED
 ═══════════════════════════════════════════════════════════════════
 
-📄 16 PAGES (Auto-Created on Activation):
+📄 19 PAGES (Auto-Created on Activation):
    1. Home
    2. About Us
    3. Services
@@ -34,14 +34,17 @@ Built from scratch by analyzing and downloading:
    6. Marble Refinishing Care Maintenance
    7. Kitchen Island Countertops and Refinishing
    8. Floors Counters Walls Maintenance
-   9. Beverly Hills CA
-   10. Santa Monica CA
-   11. Brentwood CA
-   12. Calabasas CA
-   13. Studio City CA
-   14. Contact Us
-   15. Natural Stones Care Maintenance
-   16. Gallery
+   9. Carpet Installation
+   10. Laminate Flooring Installation
+   11. Tile Floor Installation
+   12. Beverly Hills CA
+   13. Santa Monica CA
+   14. Brentwood CA
+   15. Calabasas CA
+   16. Studio City CA
+   17. Contact Us
+   18. Natural Stones Care Maintenance
+   19. Gallery
 
 🖼️ 182 IMAGES:
    - Service photos (1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg)

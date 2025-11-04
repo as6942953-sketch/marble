@@ -113,7 +113,7 @@ function marble_clone_create_pages() {
 		return;
 	}
 	
-	// Page configuration
+	// Page configuration - ALL 19 PAGES from live site
 	$page_config = array(
 		'home'                                      => array( 'title' => 'Home', 'order' => 1 ),
 		'about-us'                                  => array( 'title' => 'About Us', 'order' => 2 ),
@@ -123,6 +123,9 @@ function marble_clone_create_pages() {
 		'marble-refinishing-care-maintenance'       => array( 'title' => 'Marble Refinishing Care Maintenance', 'order' => 12 ),
 		'kitchen-island-countertops-and-refinishing' => array( 'title' => 'Kitchen Island Countertops and Refinishing', 'order' => 13 ),
 		'floors-counters-walls-maintenance'         => array( 'title' => 'Floors Counters Walls Maintenance', 'order' => 14 ),
+		'carpet-installation'                       => array( 'title' => 'Carpet Installation', 'order' => 15 ),
+		'laminate-flooring-installation'            => array( 'title' => 'Laminate Flooring Installation', 'order' => 16 ),
+		'tile-floor-installation'                   => array( 'title' => 'Tile Floor Installation', 'order' => 17 ),
 		'beverly-hills-ca'                          => array( 'title' => 'Beverly Hills CA', 'order' => 20 ),
 		'santa-monica-ca'                           => array( 'title' => 'Santa Monica CA', 'order' => 21 ),
 		'brentwood-ca'                              => array( 'title' => 'Brentwood CA', 'order' => 22 ),
@@ -234,6 +237,9 @@ function marble_clone_create_menu( $pages = array() ) {
 		'marble-refinishing-care-maintenance',
 		'kitchen-island-countertops-and-refinishing',
 		'floors-counters-walls-maintenance',
+		'carpet-installation',
+		'laminate-flooring-installation',
+		'tile-floor-installation',
 	);
 	$location_items = array(
 		'beverly-hills-ca',
